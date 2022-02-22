@@ -1,0 +1,11 @@
+*.old
+*.bak
+/conf/*
+/stats/*
+/slack/*
+/documents/*
+.idea/
+.vscode
+php_errors.log
+.DS_Store
+deployer.php
