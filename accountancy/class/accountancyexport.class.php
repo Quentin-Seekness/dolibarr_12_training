@@ -391,6 +391,7 @@ class AccountancyExport
 			print length_accountg($line->numero_compte).$separator;
 			print $line->piece_num.$separator;
 			print $line->doc_ref.$separator;
+			print $line->label_operation.$separator;
 			print price($line->debit).$separator;
 			print price($line->credit).$separator;
 			print 'E'.$separator;
